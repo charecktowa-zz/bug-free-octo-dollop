@@ -1,5 +1,5 @@
-#include "crud.h"
-#include "info.h"
+#include "../include/crud.h"
+#include "../include/info.h"
 
 int alta_clientes(Clientes cliente)
 {

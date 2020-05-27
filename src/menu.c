@@ -1,4 +1,4 @@
-#include "menu.h"
+#include "../include/menu.h"
 
 void buffer_clear(void)
 {

@@ -1,6 +1,6 @@
-#include "info.h"
-#include "crud.h"
-#include "menu.h"
+#include "../include/info.h"
+#include "../include/crud.h"
+#include "../include/menu.h"
 
 bool file_exist(const char *fname) 
 {

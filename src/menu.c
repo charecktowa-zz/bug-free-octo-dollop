@@ -15,8 +15,8 @@ void clear_screen(void)
 int main_menu(void)
 {
     int choice_entry = -1;
-    clear_screen();
     while (choice_entry != 0) {
+        //clear_screen();
         puts("=====Netflix=====");
 
         puts("1. Alta de Clientes.");

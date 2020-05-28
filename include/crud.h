@@ -6,9 +6,20 @@
 #include <string.h>
 
 typedef struct {
+    char nombre[50];
+    
+    char fecha[11];
+    char clasificacion[3];
+    int calificacion;
+}Peliculas;
+
+typedef struct {
     char email[50];
     char nombre[100];
     short edad;
+
+    Peliculas peli_info;
+
 }Clientes;
 
 Clientes nuevo_cliente;

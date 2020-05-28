@@ -3,6 +3,7 @@
 
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 
 typedef struct {
     char email[50];
@@ -14,6 +15,7 @@ Clientes nuevo_cliente;
 
 int alta_clientes(Clientes cliente);
 int baja_clientes(Clientes cliente);
-int buscar_clientes(Clientes cliente);
+int modificar_cliente(Clientes cliente);
+int listar_clientes(Clientes cliente);
 
 #endif

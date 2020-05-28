@@ -21,7 +21,7 @@ int main_menu(void)
 
         puts("1. Alta de Clientes.");
         puts("2. Baja de Clientes.");
-        puts("3. Modificar clientes");
+        puts("3. Listar todos los clientes");
         puts("0. Salir.");
 
         printf("Opción: ");
@@ -37,8 +37,8 @@ void menu(int option)
 {
     switch (option) {
         case 1: alta_clientes(nuevo_cliente); break;
-        case 2: break;
-        case 3: buscar_clientes(nuevo_cliente); break;
+        case 2: baja_clientes(nuevo_cliente); break;
+        case 3: listar_clientes(nuevo_cliente); break;
         case 0: puts("Hasta luego!"); exit(EXIT_SUCCESS); break;
 
         default:

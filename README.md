@@ -6,6 +6,6 @@ Proyecto final de Programación Básica.
 ## ¿Qué debe hacer esta cosa?
 
 - [x] Dar clientes de Alta
-- [ ] Dar clientes de Baja
+- [x] Dar clientes de Baja
 - [ ] Modificar Clientes
 - [ ] Ordenar Clientes (Nombre)
